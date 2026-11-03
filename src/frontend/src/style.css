@@ -1,0 +1,16 @@
+:root { font-family: Pretendard, -apple-system, BlinkMacSystemFont, sans-serif; color: #0f172a; background: #f8fafc; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { min-height: 64px; padding: 16px 24px; display: flex; gap: 20px; align-items: center; background: #1e3a5f; color: white; }
+header strong { font-size: 24px; letter-spacing: 2px; }
+section { max-width: 760px; margin: 64px auto; padding: 32px; background: white; border: 1px solid #e2e8f0; border-radius: 12px; }
+h1 { font-size: clamp(24px, 4vw, 36px); margin: 12px 0; }
+p { line-height: 1.7; }
+.eyebrow { color: #2563eb; font-weight: 700; }
+dl { margin: 32px 0; }
+dl div { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid #e2e8f0; padding: 16px 0; }
+dd { margin: 0; }
+button { border: 0; padding: 12px 18px; border-radius: 6px; background: #2563eb; color: white; font: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid #1e3a5f; outline-offset: 3px; }
+.note { color: #64748b; font-size: 14px; }
+@media (max-width: 800px) { section { margin: 24px 16px; padding: 24px; } }

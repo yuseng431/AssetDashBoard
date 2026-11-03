@@ -1,0 +1,15 @@
+.tools/
+.cache/
+node_modules/
+dist/
+bin/
+obj/
+TestResults/
+coverage/
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+.DS_Store
+__pycache__/
+

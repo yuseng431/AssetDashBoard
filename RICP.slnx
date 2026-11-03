@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/backend/RICP.Api/RICP.Api.csproj" />
+    <Project Path="src/backend/RICP.Application/RICP.Application.csproj" />
+    <Project Path="src/backend/RICP.Infrastructure/RICP.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RICP.Api.Tests/RICP.Api.Tests.csproj" />
+  </Folder>
+</Solution>

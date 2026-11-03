@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../RICP.Application/RICP.Application.csproj" />
+    <ProjectReference Include="../RICP.Infrastructure/RICP.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
